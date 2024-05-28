@@ -160,4 +160,4 @@ with st.sidebar:
 if "uploaded_file" in st.session_state:
     launch_assistant()
 else:
-    st.write("Please upload a CSV file to start.")
+    st.write("Please upload a CSV file in the sidebar, you can access it by clicking the arrow button on the top left of the page.")
